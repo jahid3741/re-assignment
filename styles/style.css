@@ -48,3 +48,19 @@ header{
     text-align: center;
     
 }
+
+/* main styles*/
+.container-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    margin: 50px 300px 0 300px;
+    gap: 20px;
+}
+
+.pic{
+    margin-right: 100px;
+    border-radius:50px;
+}
