@@ -1,0 +1,39 @@
+/*main body color*/
+body{
+    background-color: #F5F8FF;
+}
+/* nav bar styles*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin: 50px 150px 0 50px;
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+/*button effect*/
+/*shared styles*/
+ .btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056d2;
+    transform: scale(1.05);
+  }
+
+a{
+    margin: 50px 150px 0px 150px;
+
+}
