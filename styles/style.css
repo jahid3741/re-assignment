@@ -3,6 +3,13 @@ body{
     background-color: #F5F8FF;
 }
 /* nav bar styles*/
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-position: center;
+    padding: 20px 0 100px 0;
+
+
+}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -14,26 +21,30 @@ body{
     color: #4E47FF;
     font-weight: bold;
 }
+.sign-up{
+    margin: 50px 150px 0 50px;
+}
 /*button effect*/
 /*shared styles*/
+.button{
+    margin: 50px 150px 0 50px ;
+}
  .btn {
-    display: inline-block;
-    background-color: #007BFF;
     color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    font-size: 16px;
     border-radius: 10px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-
+    background-color: #4E47FF;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+ 
+}
   .btn:hover {
     background-color: #0056d2;
     transform: scale(1.05);
   }
-
-a{
-    margin: 50px 150px 0px 150px;
-
+.text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    
 }
