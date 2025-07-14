@@ -62,6 +62,7 @@ header{
 }
 
 /* main styles*/
+/*container-1*/
 .container-1{
     display: flex;
     justify-content: space-around;
@@ -84,4 +85,34 @@ header{
     margin-top: 20px;
     margin-right: 100px;
     border-radius:50px;
+}
+
+/*container-2*/
+.container-2{
+    border-radius: 10px;
+    background-color: #E5E7FF;
+    margin: 116px 159px 137px 141px;
+    padding: 20px 50px 50px 20px;
+}
+.title1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 20px;
+}
+.number{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.number-name{
+    text-align: center;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.number-users{
+    color: #72737F;
+    font-size: 20px;
+    font-weight: normal;
 }
